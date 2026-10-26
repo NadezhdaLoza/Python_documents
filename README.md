@@ -1,17 +1,17 @@
 # Python-documents
 
-# Proxy Management System (Backend)
+## Proxy Management System (Backend)
 
 Веб-сервис для управления доверенностями и справочниками. Архитектура: Routes -> Controllers -> Services -> Repositories.
 
-## Стек
+### Стек
 
 - **Язык:** Python 3.x
 - **Фреймворк:** Flask, Flask-CORS
 - **БД:** MongoDB (PyMongo)
 - **Тестирование:** Postman
 
-## Запуск
+### Запуск
 
 1. Установить зависимости:
    ```
@@ -23,11 +23,11 @@
    ```
 3. Сервер доступен по адресу: http://127.0.0.1:5000
 
-# Document Flow System (Frontend)
+## Document Flow System (Frontend)
 
 SPA для управления доверенностями. Vue 3 + Vuex + Vue Router + Axios.
 
-## Стек
+### Стек
 
 - **Framework:** Vue.js 3
 - **State:** Vuex 4
@@ -35,46 +35,46 @@ SPA для управления доверенностями. Vue 3 + Vuex + Vue
 - **HTTP:** Axios
 - **UI:** Bootstrap 5
 
-## Архитектура
+### Архитектура
 
 - `views/` — страницы приложения
 - `components/` — переиспользуемые UI-элементы
 - `store/` — централизованное состояние (actions, mutations, getters)
 - `router/` — конфигурация маршрутов
 
-## Запуск
+### Запуск
 
 1. Установить зависимости:
    ```bash
    npm install
    ```
 
-# document-flow-app
+## document-flow-app
 
-## Project setup
+### Project setup
 
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+#### Compiles and hot-reloads for development
 
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+#### Compiles and minifies for production
 
 ```
 npm run build
 ```
 
-### Lints and fixes files
+#### Lints and fixes files
 
 ```
 npm run lint
 ```
 
-### Customize configuration
+#### Customize configuration
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
